@@ -1,0 +1,65 @@
+  [big_fury]
+  888888888    8888  888888888888  8888     888888888     8888      8888   888888888
+8888888888888  8888  888888888888  8888   8888888888888   8888      8888 8888888888888
+8888     8888              88888         8888       8888  8888      8888 8888     8888
+888888888      8888      888888    8888 8888         8888 8888      8888 888888888
+  8888888888   8888     88888      8888 8888         8888 8888      8888   88888888888
+       888888  8888   88888        8888 8888         8888 8888      8888         888888
+8888      8888 8888  88888         8888  8888       8888  8888      8888 8888      8888
+8888888888888  8888 88888888888888 8888   8888888888888    888888888888  8888888888888
+  8888888888   8888 88888888888888 8888     888888888       8888888888     8888888888
+
+IPCREATE - Command Line
+=======================
+
+Version : v1.1
+Autor   : [big_fury]SiZiOUS a.k.a SiZ!
+Website : http://www.sbibuilder.fr.st/
+
+I) Presentation : 
+-----------------
+
+Hello everyone! This program create a custom IP.BIN for SEGA Dreamcast. 
+You can also add a custom logo, inside the IP.BIN.
+Exactly the same program but in command line.
+
+II) Use : 
+---------
+
+Type ipcreate -h to get help.
+
+  Options  : -o          : Change the location and/or filename of the 'IP.BIN'.
+             -v          : Change version.
+             -d          : Change date, format : dd/mm/yyyy.
+             -m          : Change manufacturer.
+             -b          : Change boot file name (Such : 1ST_READ.BIN).
+             -a          : Change application title. (Such : YOUR PROG!)
+             -l          : Insert any kind of image in the IP.BIN.
+  Switches : -ow         : overwrite output files if file exists and
+                           create directories if it isn't found
+             -silent     : hide all success messages
+             -help or -h : Show this help
+             -errmsg     : Show errors codes
+
+  Examples : ipcreate.exe -o yo\ip.bin -a Hi U! -v 1.0 -l "f:\nice app\hi.bmp"
+                 Create a '<CurrDir>\yo\ip.bin' file with f:\.\hi.bmp inside.
+
+III) Credits : 
+--------------
+
+This app was programmed by [big_fury]SiZiOUS (SiZ!). 
+It is freeware and can be distributed, if you keep the original package.
+
+Created for LyingWake.
+
+Enjoy it !!!
+
+[big_fury]SiZiOUS
+http://www.sbibuilder.fr.st/
+
+IV) Changes :
+-------------
+
+Requested by LyingWake, Gun, Mouse and Keyboard are enabled by default.
+
+<EOF>
