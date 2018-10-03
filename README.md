@@ -17,4 +17,4 @@ the specific `MR` format.
 
 # Credits
 
-This package use the logotools from **ADK/Napalm**.
+This package use the `logotools` from **ADK/Napalm**.
